@@ -11,6 +11,11 @@
 		CF54E0602A249FFC00001381 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54E05F2A249FFC00001381 /* ContentView.swift */; };
 		CF54E0622A249FFE00001381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF54E0612A249FFE00001381 /* Assets.xcassets */; };
 		CF54E0652A249FFE00001381 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF54E0642A249FFE00001381 /* Preview Assets.xcassets */; };
+		CF54E06E2A24A6D300001381 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54E06D2A24A6D300001381 /* MainView.swift */; };
+		CF54E0702A24ACC200001381 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54E06F2A24ACC200001381 /* OnboardingView.swift */; };
+		CF54E0732A24C93A00001381 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = CF54E0722A24C93A00001381 /* Lottie */; };
+		CF54E0752A24D02100001381 /* OnBoardLottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54E0742A24D02100001381 /* OnBoardLottieView.swift */; };
+		CF54E0772A24D20F00001381 /* onboard_anim.json in Resources */ = {isa = PBXBuildFile; fileRef = CF54E0762A24D20F00001381 /* onboard_anim.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,10 @@
 		CF54E05F2A249FFC00001381 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF54E0612A249FFE00001381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF54E0642A249FFE00001381 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF54E06D2A24A6D300001381 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CF54E06F2A24ACC200001381 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		CF54E0742A24D02100001381 /* OnBoardLottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardLottieView.swift; sourceTree = "<group>"; };
+		CF54E0762A24D20F00001381 /* onboard_anim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboard_anim.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF54E0732A24C93A00001381 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +61,12 @@
 		CF54E05C2A249FFC00001381 /* Appnap Blog */ = {
 			isa = PBXGroup;
 			children = (
+				CF54E0762A24D20F00001381 /* onboard_anim.json */,
 				CF54E05D2A249FFC00001381 /* Appnap_BlogApp.swift */,
 				CF54E05F2A249FFC00001381 /* ContentView.swift */,
+				CF54E06F2A24ACC200001381 /* OnboardingView.swift */,
+				CF54E0742A24D02100001381 /* OnBoardLottieView.swift */,
+				CF54E06D2A24A6D300001381 /* MainView.swift */,
 				CF54E0612A249FFE00001381 /* Assets.xcassets */,
 				CF54E0632A249FFE00001381 /* Preview Content */,
 			);
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = "Appnap Blog";
+			packageProductDependencies = (
+				CF54E0722A24C93A00001381 /* Lottie */,
+			);
 			productName = "Appnap Blog";
 			productReference = CF54E05A2A249FFC00001381 /* Appnap Blog.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = CF54E0512A249FFC00001381;
+			packageReferences = (
+				CF54E0712A24C93A00001381 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = CF54E05B2A249FFC00001381 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF54E0652A249FFE00001381 /* Preview Assets.xcassets in Resources */,
+				CF54E0772A24D20F00001381 /* onboard_anim.json in Resources */,
 				CF54E0622A249FFE00001381 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF54E0602A249FFC00001381 /* ContentView.swift in Sources */,
+				CF54E0702A24ACC200001381 /* OnboardingView.swift in Sources */,
+				CF54E06E2A24A6D300001381 /* MainView.swift in Sources */,
+				CF54E0752A24D02100001381 /* OnBoardLottieView.swift in Sources */,
 				CF54E05E2A249FFC00001381 /* Appnap_BlogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +290,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_ASSET_PATHS = "\"Appnap Blog/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -294,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_ASSET_PATHS = "\"Appnap Blog/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -337,6 +363,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF54E0712A24C93A00001381 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF54E0722A24C93A00001381 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF54E0712A24C93A00001381 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CF54E0522A249FFC00001381 /* Project object */;
 }
