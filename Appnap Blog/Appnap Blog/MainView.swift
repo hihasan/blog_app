@@ -9,7 +9,21 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        Text("Main View")
+        TabView{
+            HomeScreenView().tabItem{
+                Label("Home", systemImage: "house")
+            }
+            ArticleView().tabItem{
+                Label("Article", systemImage: "book")
+            }
+            SearchView().tabItem{
+                Label("Search", systemImage: "magnifyingglass")
+            }
+            AccountView().tabItem{
+                Label("Accounts", systemImage: "person")
+            }
+            
+        }
     }
 }
 

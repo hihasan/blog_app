@@ -16,6 +16,10 @@
 		CF54E0732A24C93A00001381 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = CF54E0722A24C93A00001381 /* Lottie */; };
 		CF54E0752A24D02100001381 /* OnBoardLottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54E0742A24D02100001381 /* OnBoardLottieView.swift */; };
 		CF54E0772A24D20F00001381 /* onboard_anim.json in Resources */ = {isa = PBXBuildFile; fileRef = CF54E0762A24D20F00001381 /* onboard_anim.json */; };
+		CFBB82FE2A261FC90093A5A5 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB82FD2A261FC90093A5A5 /* HomeScreenView.swift */; };
+		CFBB83022A261FEE0093A5A5 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB83012A261FEE0093A5A5 /* ArticleView.swift */; };
+		CFBB83042A2620050093A5A5 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB83032A2620050093A5A5 /* SearchView.swift */; };
+		CFBB83062A2620170093A5A5 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB83052A2620170093A5A5 /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		CF54E06F2A24ACC200001381 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		CF54E0742A24D02100001381 /* OnBoardLottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardLottieView.swift; sourceTree = "<group>"; };
 		CF54E0762A24D20F00001381 /* onboard_anim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboard_anim.json; sourceTree = "<group>"; };
+		CFBB82FD2A261FC90093A5A5 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		CFBB83012A261FEE0093A5A5 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		CFBB83032A2620050093A5A5 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		CFBB83052A2620170093A5A5 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,7 @@
 		CF54E05C2A249FFC00001381 /* Appnap Blog */ = {
 			isa = PBXGroup;
 			children = (
+				CFBB82FC2A261FBA0093A5A5 /* views */,
 				CF54E0762A24D20F00001381 /* onboard_anim.json */,
 				CF54E05D2A249FFC00001381 /* Appnap_BlogApp.swift */,
 				CF54E05F2A249FFC00001381 /* ContentView.swift */,
@@ -79,6 +88,17 @@
 				CF54E0642A249FFE00001381 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFBB82FC2A261FBA0093A5A5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB82FD2A261FC90093A5A5 /* HomeScreenView.swift */,
+				CFBB83012A261FEE0093A5A5 /* ArticleView.swift */,
+				CFBB83032A2620050093A5A5 /* SearchView.swift */,
+				CFBB83052A2620170093A5A5 /* AccountView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +181,11 @@
 				CF54E0602A249FFC00001381 /* ContentView.swift in Sources */,
 				CF54E0702A24ACC200001381 /* OnboardingView.swift in Sources */,
 				CF54E06E2A24A6D300001381 /* MainView.swift in Sources */,
+				CFBB82FE2A261FC90093A5A5 /* HomeScreenView.swift in Sources */,
+				CFBB83042A2620050093A5A5 /* SearchView.swift in Sources */,
 				CF54E0752A24D02100001381 /* OnBoardLottieView.swift in Sources */,
+				CFBB83062A2620170093A5A5 /* AccountView.swift in Sources */,
+				CFBB83022A261FEE0093A5A5 /* ArticleView.swift in Sources */,
 				CF54E05E2A249FFC00001381 /* Appnap_BlogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
